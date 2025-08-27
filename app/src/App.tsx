@@ -5,7 +5,7 @@ import CareerShowEn from "./pages/CareerShowEn";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/CareerShowLanding">
       <Routes>
         {/* Wrap all routes with Layout */}
         <Route element={<Layout />}>
